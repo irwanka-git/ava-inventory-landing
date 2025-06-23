@@ -1,10 +1,10 @@
 "use client"
 
-import FrontLayout from "@/components/layout/FrontLayout";
 import React from "react";
 import {Image} from "@nextui-org/react";
 import {useEffectOnce} from "@/lib/utils";
 import Link from "next/link";
+import FrontLayout from "@/app/front";
 
 export default function Login() {
 
