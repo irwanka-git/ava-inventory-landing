@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/globals.css */
+@layer utilities {
+    .z-99999 {
+        z-index: 99999;
+    }
+}
+.header {
+    position: static; /* Makes the header have a static position */
+    background-color: #fff; /* Optional: Set a background color */
+    padding: 1rem; /* Optional: Add some padding */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for aesthetics */
+}
+
+.recharts-cartesian-axis-tick-value{
+    font-size: 0.45rem;
+}
