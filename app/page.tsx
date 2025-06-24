@@ -17,7 +17,7 @@ export default function Login() {
             <FrontLayout>
                 <div className="container mx-auto px-8">
                     <div className={"grid grid-cols-1 gap-6"}>
-                        <div className="col-auto md:block hidden">
+                        <div className="col-auto">
                             <div
                                 className={"flex flex-col items-center w-full h-screen-minus-footer justify-center"}>
                                 <span className={"px-2 text-2xl lg:text-3xl text-white"}>GDY x JLU Inventory</span>
